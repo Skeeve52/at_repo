@@ -57,8 +57,8 @@ struct _prListener
     uint8_t       remAddr;
     
     uint8_t       pktDataSize;
-    uint8_t       pktData [ UCHAR_MAX + 1 ];
-	uint8_t		  pktFrame[ UCHAR_MAX + 7 ];
+    //uint8_t       pktData [ UCHAR_MAX + 1 ];
+    uint8_t       pktFrame[ UCHAR_MAX + 7 ];
     
     prGetByte_cb  *lstGetByte;
     

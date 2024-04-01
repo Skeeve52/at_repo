@@ -119,7 +119,7 @@ prResult_t   prGetByte( prListener_t* listener, uint8_t byte )
             listener->state++;
         }
         else {
-            listener->pktData[ n ] = byte;
+            //listener->pktData[ n ] = byte;
             listener->pktFrame[ listener->pos ] = byte;
         }
         break;
